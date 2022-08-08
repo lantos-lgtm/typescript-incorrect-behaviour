@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "start_node_env_override": "ts-node NODE_OPTIONS='--import-type=commonjs' src/index.ts",
+    "start_node_env_override": "NODE_OPTIONS='--import-type=commonjs' ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
